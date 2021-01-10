@@ -15,3 +15,6 @@ for (var i = 0; i < 5; i++) {
     sum += i;
  };
  console.log(sum);
+
+ //HW_3
+ 
