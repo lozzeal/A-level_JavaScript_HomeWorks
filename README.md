@@ -15,13 +15,13 @@ HW_4*
 Создать цикл на 10 итераций. На каждой итерации если i четное, то вывести в консоль слово Fiz, если i не четное, то вывести в консоль слово Buz, если i кротное цифре 3, то вывести FizBuz.
 
 //Результат
-Buz
-Fiz
-FizBuz
-Fiz
-Buz
-FizBuz
-Buz
-Fiz
-FizBuz
-Fiz
+<p>Buz</p>
+<p>Fiz</p>
+<p>FizBuz</p>
+<p>Fiz</p>
+<p>Buz</p>
+<p>FizBuz</p>
+<p>Buz</p>
+<p>Fiz</p>
+<p>FizBuz</p>
+<p>Fiz</p>
