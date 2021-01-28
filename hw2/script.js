@@ -25,14 +25,19 @@ const index2 = getIndex('Hello, my name is', 'name'); // 10
 
   
 // HW_1
-let getSum = (a, b) => {
-   return a + b;
+// let getSum = (a, b) => {
+//    return a + b;
+// };
+// console.log(getSum(2, 7));
+
+// let getSum2 = function (a, b) {
+//    return a + b;
+// };
+// console.log(getSum2(1, 5));
+
+// HW_2
+function hello2(name = 'гость') {
+   console.log ('Привет, ', name)
 };
-console.log(getSum(2, 7));
 
-let getSum2 = function (a, b) {
-   return a + b;
-};
-console.log(getSum2(1, 5));
-
-
+hello2 ('Василий');
