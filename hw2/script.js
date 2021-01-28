@@ -23,17 +23,16 @@ const index2 = getIndex('Hello, my name is', 'name'); // 10
 Если это строка, то проверям размер этой строки. Если он больше чем 3 символа, то выводим на экран это слово. Если меньше чем 3 символа, то выводим слово 'Ошибка. Минимальная длина - 3'.
 Если это не строка, то выводим тип данных этого значения и слово 'Ошибка. Не тот тип данных' */
 
-  
 // HW_1
-// let getSum = (a, b) => {
-//    return a + b;
-// };
-// console.log(getSum(2, 7));
+let getSum = (a, b) => {
+   return a + b;
+};
+console.log(getSum(2, 7));
 
-// let getSum2 = function (a, b) {
-//    return a + b;
-// };
-// console.log(getSum2(1, 5));
+let getSum2 = function (a, b) {
+   return a + b;
+};
+console.log(getSum2(1, 5));
 
 // HW_2
 function hello2(name = 'гость') {
@@ -41,3 +40,27 @@ function hello2(name = 'гость') {
 };
 
 hello2 ('Василий');
+
+// HW_3
+function getIndex(str, targetString) {
+  return str.indexOf(targetString);
+};
+
+const index = getIndex("Hello, my name is", "is");
+const index2 = getIndex("Hello, my name is", "name");
+
+console.log(index);
+console.log(index2);
+
+// HW_4
+function stringValidation(arg) {
+  if (typeof arg === "string" && arg.length > 3) {
+    console.log(arg);
+  } else if (arg.length <= 3) {
+    console.log("Ошибка. Минимальная длина - 3");
+  } else {
+    console.log("Ошибка. Не тот тип данных");
+  }
+}
+
+stringValidation("Hello");
